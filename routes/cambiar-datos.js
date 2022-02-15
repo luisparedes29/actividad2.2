@@ -20,7 +20,7 @@ router.put('/:id', (req, res) => {
                     }
                 }
             }else{
-                res.status(400).send("Id no existe")
+               //return res.status(400).send("Id no existe")
             }
         }
         const str = JSON.stringify(pacientes);
@@ -66,7 +66,7 @@ router.put('/modificar-uci/:id', (req, res) => {
                 }
 
             }else{
-                res.status(400).send("Id no existe");
+               // res.status(400).send("Id no existe");
             }
         }
         const str = JSON.stringify(pacientes);
