@@ -32,7 +32,7 @@ router.get('/uci/:id', (req, res) => {
                     pacientes2[j].nombre = pacientes[i].nombre;
                     lista.push(pacientes2[j])
                 } else {
-                    return res.status(400).send("Este paciente no se encuentra en UCI o el id no existe")
+                   // return res.status(400).send("Este paciente no se encuentra en UCI o el id no existe")
                 }
 
             }
