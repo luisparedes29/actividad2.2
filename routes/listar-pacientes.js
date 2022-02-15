@@ -37,7 +37,7 @@ router.get('/uci/:id', (req, res) => {
 
             }
             //console.log(pacientes[i])
-        } 
+        }
     }
     res.status(200).json(lista);
 
@@ -53,19 +53,23 @@ router.get('/:id', (req, res, next) => {
         if (id == pacientes[i].id) {
             for (let j = 0; j < pacientes2.length; j++) {
                 if (id == pacientes2[j].id_paciente) {
-                    pacientes[i].mensaje = "Este paciente se encuentra en la cama " + pacientes2[j].numeroHabitacion + " del area de UCI"
-                    lista.push(pacientes[i])
+                    console.log("Entro")
+                   // pacientes[i].mensaje = "Este paciente se encuentra en la cama " + pacientes2[j].numeroHabitacion + " del area de UCI"
+                    res.status(200).json(pacientes[i]);
+                    //lista.push(pacientes[i]);
+                    //console.log(lista);
                 } else {
-                    lista.push(pacientes[i]);
+                    //lista.push(pacientes[i]);
+                    res.status(200).json(pacientes[i]);
                 }
 
             }
-            //console.log(pacientes[i])
+            console.log(pacientes[i])
         } else {
-            return res.status(400).send("Este id no existe");
+            //return res.status(400).send("Este id no existe");
         }
     }
-    res.status(200).json(lista);
+   // res.status(200).json(lista);
 });
 
 
