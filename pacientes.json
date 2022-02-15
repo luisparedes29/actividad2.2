@@ -1,0 +1,42 @@
+[
+    {
+        "id": "87ee0ef3-9883-4be9-8c61-3797901bc05c",
+        "nombre": "Maria Paez",
+        "sexo": "f",
+        "edad": "17",
+        "historialMedico": "asma,bronquitis",
+        "numeroContacto": "04247238989",
+        "numeroFamiliar": "04141771209",
+        "direccion": "Mendoza"
+    },
+    {
+        "id": "948bfce7-9a96-49bd-b43a-7426005e6af3",
+        "nombre": "Luis Paredes",
+        "sexo": "m",
+        "edad": "20",
+        "historialMedico": "asma,bronquitis",
+        "numeroContacto": "04247238989",
+        "numeroFamiliar": "04141771209",
+        "direccion": "San Luis, Valera"
+    },
+    {
+        "id": "9642b76a-516b-4d72-bd0b-9f4020c691b2",
+        "nombre": "Alexander Vera",
+        "sexo": "m",
+        "edad": "22",
+        "historialMedico": "asma,bronquitis",
+        "numeroContacto": "04247238989",
+        "numeroFamiliar": "04141771209",
+        "direccion": "San Luis sector 6, Valera"
+    },
+    {
+        "id": "4f6071a3-72b5-471b-a51e-2009c88a3806",
+        "nombre": "Leonardo Pena",
+        "sexo": "m",
+        "edad": "29",
+        "historialMedico": "gastritis",
+        "numeroContacto": "04247238989",
+        "numeroFamiliar": "04141771209",
+        "direccion": "San Luis 52 casas, Valera"
+    }
+]

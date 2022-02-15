@@ -1,0 +1,12 @@
+[
+    {
+        "id_paciente": "87ee0ef3-9883-4be9-8c61-3797901bc05c",
+        "id_habitacion": "b98c915e-d24c-451f-8d79-3e703e8095c1",
+        "numeroHabitacion": "1"
+    },
+    {
+        "id_paciente": "4f6071a3-72b5-471b-a51e-2009c88a3806",
+        "id_habitacion": "ddb0b867-3527-45ff-beaf-14e489670ef6",
+        "numeroHabitacion": "2"
+    }
+]
